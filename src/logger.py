@@ -1,7 +1,7 @@
 import logging
 import logger
-#Logging is a means of tracking events that happen when some software runs. 
-# Logging is important for software developing, debugging, and running.
+#Logging is a means of tracking ev ments that happen when some software runs. 
+# Logging is important for software sdeveloping, debugging, and running.
 import os
 #provides a way to interact with the operating system. 
 # It allows Python programs to perform various operating system-dependent functionalities in a portable manner. 
@@ -21,5 +21,3 @@ logging.basicConfig(
 )  
 #logging.basicConfig() function is used to configure the logging settings in Python.
 # Here, we are setting the filename, format, and logging level.
-
-
