@@ -12,7 +12,7 @@ MLproject1/
 
 - Then created the other files, start with exception.py to handle the exception and add the code
 - Created Logger.py and add the code
-
+-----------------------------------------------------------------------------------------------------
 - Created new folders and files
 MLproject1/
 ├── .gitignore                # Specifies files/folders to ignore in git
@@ -31,3 +31,33 @@ MLproject1/
 ├── tests/                    # (Optional) Unit and integration tests
 │   └── test_logger.py        # (Example) Tests for logger.py
 └── artifacts/                # (Optional) Model artifacts, outputs, or checkpoints
+-----------------------------------------------------------------------------------------------------------------------------------
+Added data_ingestion.py, data_transformation.py and utils.py
+F:\DS project\Projects\MLproject1\
+├── .gitignore
+├── README.MD
+├── requirements.txt
+├── setup.py
+├── venv/                          # virtual environment
+├── data/
+│   └── stud.csv                   # dataset used by notebooks/scripts
+├── notebook/
+│   ├── 1 . EDA STUDENT PERFORMANCE .ipynb
+│   └── 2. MODEL TRAINING.ipynb
+├── src/
+│   ├── __init__.py                # package marker
+│   ├── logger.py                  # logging configuration
+│   ├── exception.py               # CustomException wrapper
+│   └── Components/
+│       ├── __init__.py            # package marker
+│       ├── data_ingestion.py
+│       └── data_transformation.py
+├── artifacts/                     # outputs: train.csv, test.csv, raw data
+├── logs/                          # runtime logs
+└── tests/
+    └── test_logger.py
+-------------------------------------------------------------------------------------------------------------------------
+Added Model_trainer.py
+Done HyperParameter tuning
+-------------------------------------------------------------------------------------------------------------------------
+
